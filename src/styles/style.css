@@ -1,0 +1,24 @@
+.max-height {
+    height: 100vh;
+}
+
+#sidebar {
+    background-color: #385170;
+}
+
+#body {
+    background-color: #ECECEC;
+}
+
+.cirlce-image {
+    border-radius: 100% !important;
+}
+
+#img-perfil {
+    background-image: url(../assets/perfil.jpg);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: 0px -26px;
+}
