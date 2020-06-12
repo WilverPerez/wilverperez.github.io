@@ -9,7 +9,11 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- Internal styles -->
   <link rel="stylesheet" href="./src/styles/style.css">
+  <link rel="stylesheet" href="./src/styles/card-style.css">
+  <link rel="stylesheet" href="./src/styles/sidebar-style.css">
 
   <title>Presentación</title>
 </head>
@@ -17,14 +21,28 @@
 <body>
   <div class="container-fluid row m-0 p-0">
     <div id="sidebar"
-      class="col-md-2 col-lg-2 col-xl-2 d-sm-none max-height d-md-flex justify-content-start align-items-center flex-column">
+      class="col-md-2 p-0 col-lg-2 col-xl-2 max-height d-none d-lg-flex justify-content-start align-items-center flex-column">
       <div class="mt-4">
         <div id="img-perfil" class="col-12 cirlce-image bg-white p-0 m-0">
         </div>
       </div>
-      <h3 class="text-white">Wilvel Ant.</h3>
+      <h3 class="text-white mt-3">Wilvel Ant.</h3>
+      <p class="text-white p-2 text-center">
+        una cotorra vacana, muy linda y extensa pero profunda
+      </p>
+      <h5 class="text-white mt-3">Contacto:</h5>
+      <label class="text-white">wilverp.romero@gmail.com</label>
     </div>
-    <div id="body" class="col-md-10 max-height col-sm-12 ">
+    <div id="body"
+      class="col-12 col-lg-10 max-height p-2  m-0 row d-flex justify-content-start align-items-start align-content-start">
+      <div id="skill" class="col-12 m-0 p-0 row">
+        <h3 class="col-12 m-0">Habilidades</h3>
+        <hr class="w-100 mb-3">
+      </div>
+      <div id="projects" class="col-12 m-0 p-0 pt-2 row">
+        <h3 class="col-12 m-0">Proyectos</h3>
+        <hr class="w-100 mb-3">
+      </div>
     </div>
   </div>
 </body>
@@ -40,6 +58,8 @@
 
 <!-- modules, local files -->
 <script src="./main.js"></script>
+<script src="./src/utils/card.js"></script>
+<script src="./src/components/skill-list.js"></script>
 
 </body>
 
