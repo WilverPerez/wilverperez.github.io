@@ -1,4 +1,4 @@
-$(function(){
-    $('#skill').append(new SkillList().buildSkills());
-    $('#projects').append(new SkillList().buildSkills());
+$(function () {
+    $('#skill').append(new Skills().getAllSkills());
+    $('#projects').append(new Projects().getAllProjects());
 });

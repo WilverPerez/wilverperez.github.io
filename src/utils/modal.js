@@ -1,0 +1,10 @@
+class Modal {
+
+    openModal() {
+
+    }
+
+    closeModal() {
+        
+    }
+}
