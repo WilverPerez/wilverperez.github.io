@@ -10,3 +10,7 @@
     background-color: #ECECEC;
     overflow: auto;
 }
+
+img.text-center {
+    width: 100%;
+}
