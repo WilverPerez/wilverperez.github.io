@@ -18,5 +18,6 @@ const enumSkills = {
     codeigniter: 'Codeigniter',
     sql: 'MS SQL',
     mySql: 'MySql',
-    firebase: 'Firebase'
+    firebase: 'Firebase', 
+    dark: 'dark'
 }
