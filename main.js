@@ -1,4 +1,5 @@
 $(function () {
-    $('#skill').append(new Skills().getAllSkills());
-    $('#projects').append(new Projects().getAllProjects());
+    new Skills();
+    new Projects();
+    new Modal();
 });

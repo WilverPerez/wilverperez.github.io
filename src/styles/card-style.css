@@ -21,3 +21,7 @@
     opacity: 1;
     cursor: pointer;
 }
+
+.disabled {
+    pointer-events: none;
+}
