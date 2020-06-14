@@ -9,24 +9,67 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- Internal styles -->
   <link rel="stylesheet" href="./src/styles/style.css">
+  <link rel="stylesheet" href="./src/styles/card-style.css">
+  <link rel="stylesheet" href="./src/styles/sidebar-style.css">
 
   <title>Presentación</title>
 </head>
 
 <body>
+
   <div class="container-fluid row m-0 p-0">
+
     <div id="sidebar"
-      class="col-md-2 col-lg-2 col-xl-2 d-sm-none max-height d-md-flex justify-content-start align-items-center flex-column">
+      class="col-md-2 p-0 col-lg-2 col-xl-2 max-height d-none d-lg-flex justify-content-start align-items-center flex-column">
+
       <div class="mt-4">
+        
         <div id="img-perfil" class="col-12 cirlce-image bg-white p-0 m-0">
         </div>
+
       </div>
-      <h3 class="text-white">Wilvel Ant.</h3>
+
+      <h3 class="text-white mt-3">Wilvel Ant.</h3>
+      <h5 class="text-white">Developer</h5>
+
+      <p class="text-white p-2 text-center">
+        Con más de 3 años de experiencia en mi profesión. <br> <br>
+        Me gusta crear herramientas que ayuden a facilitar el uso cotidiano de aquello que caracteriza el
+        desempeño de su día a día. <br> <br>
+        Adaptable a cualquier area de trabajo, incluyendo trabajo en equipo.
+      </p>
+
+      <h5 class="text-white mt-3">Contacto:</h5>
+
+      <label class="text-white">wilverp.romero@gmail.com</label>
+
     </div>
-    <div id="body" class="col-md-10 max-height col-sm-12 ">
+
+    <div id="body"
+      class="col-12 col-lg-10 max-height p-2  m-0 row d-flex justify-content-start align-items-start align-content-start">
+
+      <div id="skill" class="col-12 m-0 p-0 row">
+        <h3 class="col-12 m-0">Habilidades</h3>
+        <hr class="w-100 mb-3">
+      </div>
+
+      <div id="projects" class="col-12 m-0 p-0 pt-2 row">
+        <h3 class="col-12 m-0">Proyectos</h3>
+        <hr class="w-100 mb-3">
+      </div>
+
     </div>
+
   </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="modal" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog"
+    aria-labelledby="modalLabel" aria-hidden="true">
+  </div>
+
 </body>
 
 <!-- Optional JavaScript -->
@@ -40,6 +83,12 @@
 
 <!-- modules, local files -->
 <script src="./main.js"></script>
+<script src="./src/utils/card.js"></script>
+<script src="./src/pages/skills.js"></script>
+<script src="./src/pages/projects.js"></script>
+<script src="./src/utils/modal.js"></script>
+<script src="./src/utils/badge.js"></script>
+<script src="./src/enums/enum-skill.js"></script>
 
 </body>
 

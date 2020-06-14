@@ -1,0 +1,27 @@
+.card:hover {
+    transform: scale(1.2);
+    transition: ease .3s transform;
+    z-index: 1;
+}
+
+.card {
+    transform: scale(1);
+    transition: ease .3s transform;
+}
+
+.card-size-img {
+    width: 80px;
+}
+
+.card-project {
+    opacity: 0.6;
+}
+
+.card-project:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.disabled {
+    pointer-events: none;
+}
