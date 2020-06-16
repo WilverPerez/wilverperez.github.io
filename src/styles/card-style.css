@@ -1,9 +1,3 @@
-.card:hover {
-    transform: scale(1.2);
-    transition: ease .3s transform;
-    z-index: 1;
-}
-
 .card {
     transform: scale(1);
     transition: ease .3s transform;
@@ -20,6 +14,9 @@
 .card-project:hover {
     opacity: 1;
     cursor: pointer;
+    transform: scale(1.2);
+    transition: ease .3s transform;
+    z-index: 1;
 }
 
 .disabled {
